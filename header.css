@@ -1,0 +1,75 @@
+header{
+    display:flex;
+    height: 75px;
+    background-color: #262626;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index:100;
+    top: 0px;
+    grid-area: h;
+}
+
+.title{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(45deg, #747272, #C7C7C7, #EBEBEB, #F9F9F9);
+    text-shadow: none;
+}
+
+.head_nav{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.head_nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.head_nav li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.head_nav li a:hover{
+    color: rgb(255, 106, 0);
+    text-shadow: 0 0 5px rgba(225, 124, 9, 0.7);
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.service i:hover{
+    color:rgb(223, 40, 23);
+}
+
+.phone_num{
+    margin: 0;
+    color: white;
+}
+
+.footer{
+    background-color: #262626;
+    grid-area: f;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    z-index: 1000;
+}

@@ -1,0 +1,71 @@
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    grid-area: b;
+    background-image: url("images/banner2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+    height: 500px;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+}
+
+@keyframes animate {
+    0% {background-image: url("images/banner2.webp");}
+    25% {background-image: url("images/banner3.webp");}
+    50% {background-image: url("images/banner4.webp");}
+    75% {background-image: url("images/banner5.webp");}
+    100% {background-image: url("images/banner2.webp");}
+}
+
+.banner:hover{
+    animation: animate 15s linear infinite;
+    animation-delay: 3s;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.logo-cont{
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    backdrop-filter: blur(8px);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.37);
+}
+
+.banner_button{
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    background-color: #dc3810;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.banner_button:hover{
+    background-color: #b82d0a;
+}

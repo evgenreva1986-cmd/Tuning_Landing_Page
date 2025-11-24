@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    grid-template-areas: 
+    "h h h"
+    "m m m"
+    "f f f";
+}
+header{
+    display:flex;
+    height: 75px;
+    background-color: #262626;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index:100;
+    top: 0px;
+    grid-area: h;
+}
+.title{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(45deg, #747272, #C7C7C7, #EBEBEB, #F9F9F9);
+}
+.head_nav{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+.head_nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+.head_nav li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.head_nav li a:hover{
+    color: rgb(255, 106, 0);
+    text-shadow: 0 0 5px rgba(225, 124, 9, 0.7);
+}
+.service{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    gap: 10px;
+    padding: 10px;
+}
+.service i:hover{
+    color:rgb(223, 40, 23);
+}
+.phone_num{
+    margin: 0;
+    color: white;
+}
+.footer{
+    background-color: #262626;
+    grid-area: f;
+}
+.main{
+    grid-area: m;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: 
+    "b b"
+    "f f"
+    "s c";
+}
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    grid-area: b;
+    background-image: url("images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+    height: 500px;
+    transition: background-image 1s;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+@keyframes animate {
+    0% {background-image: url("images/banner2.jpg");}
+    25% {background-image: url("images/banner3.jpg");}
+    50% {background-image: url("images/banner4.jpg");}
+    75% {background-image: url("images/banner5.jpg");}
+    100% {background-image: url("images/banner2.jpg");}
+}
+.banner:hover{
+    animation: animate 15s linear infinite;
+    animation-delay: 3s;
+}
+.logo img{
+    width: 150px;
+    height: 150px;;
+}
+.logo-cont{
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    backdrop-filter: blur(8px);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.37);
+}
+
+.banner_button{
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    background-color: #dc3810;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.banner_button:hover{
+    background-color: #b82d0a;
+}
+.filters{
+    grid-area: f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    background-color: #dc3810;
+    gap: 10px;
+}
+.dropdown{
+    appearance: none;
+    width: 200px;
+    height: 40px;
+    border:rgb(58, 11, 75) solid 2px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 3px;
+}
+.dropdown:focus{
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.5);
+}
+.filters button{
+    background-color:#262626;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.filters button:hover{
+    transform: scale(1.1);
+    background-color: #525050;
+}
+.side{
+    grid-area: s;
+    background-color: rgb(58, 11, 75);
+}
+.catalog{
+    grid-area: c;
+    height: 500px;
+}

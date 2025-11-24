@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style tech</title>
+    <link rel="stylesheet" href="base.css"> 
+    <link rel="stylesheet" href="header.css"> 
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="adaptive.css"> 
+    <!--Шрифти-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!--для іконок-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="title">Style Tech</div>
+        <nav class="head_nav">
+            <ul>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="service">
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-phone-alt"></i>
+            <p class="phone_num">+380980516902</p>
+        </div>
+    </header>
+    <div class="main">
+    <section class="banner">
+        <div class="logo-cont">
+                    <div class="logo"><img src="images/styleTech (2).webp"></div>
+                </div>
+        <div class="banner-content">
+                <h1>Більше 13000 товарів для тюнінгу авто</h1>
+                <div>Style Tech - жени стильово</div>
+        </div>
+        <a href="#catalog" class="banner_button">До каталогу</a>
+    </section>
+    <section class="filters">
+        <select name="marka" id="marka" title="Марка" class="dropdown">
+            <option disabled selected>Марка</option>
+            <option>Хонда</option>
+            <option>Бмв</option>
+            <option>ауді</option>
+            <option>мерседес</option>
+        </select>
+        <select name="type" id="type" title="Тип кузова" class="dropdown">
+            <option disabled selected>Тип кузова</option>
+            <option>Седан</option>
+            <option>Хетчбек</option>
+            <option>купе</option>
+            <option>кросовер</option>
+            <option>кабріолет</option>
+        </select>
+        <select name="category" id="category" title="Категорія товару" class="dropdown">
+            <option disabled selected>Категорія</option>
+            <option>Обвіси</option>
+            <option>Оптика</option>
+            <option>Диски</option>
+            <option>Шини</option>
+            <option>Вихлоп</option>
+        </select>
+        <button type="submit">Підібрати</button>
+    </section>
+    <section id="catalog" class="catalog">
+        <div class="cat_cards">
+            <img src="images/card1.webp">
+            <div class="card_desc">Hyper Wide Body Kit Type MR01 - Civic EK9/4</div>
+            <div class="price">1499$</div>
+            <a class="cat_button" href="#">Купити</a>
+        </div>
+        <div class="cat_cards">
+            <img src="images/card2.webp">
+            <div class="card_desc">Комплект дисків Angel JDM r18</div>
+            <div class="price">599$</div>
+            <a class="cat_button" href="#">Купити</a>
+        </div>
+        <div class="cat_cards">
+            <img src="images/card3.webp">
+            <div class="card_desc">Комплект з 2-х регульованих пружин</div>
+            <div class="price">499$</div>
+            <a class="cat_button" href="#">Купити</a>
+        </div>
+        <div class="cat_cards">
+            <img src="images/card4.webp">
+            <div class="card_desc">Комплект передньої оптики на Toyota Mark 2</div>
+            <div class="price">899$</div>
+            <a class="cat_button" href="#">Купити</a></div>
+        <div class="cat_cards">
+            <img src="images/card5.webp">
+            <div class="card_desc">Спойлер універсальний. 145x45см</div>
+            <div class="price">100$</div>
+            <a class="cat_button" href="#">Купити</a></div>
+        <div class="cat_cards">
+            <img src="images/card6.webp">
+            <div class="card_desc">Спортивні сидіння ковші. 2 шт</div>
+            <div class="price">1000$</div>
+            <a class="cat_button" href="#">Купити</a>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="gallery_cont">
+            <h1>Галерея</h1>
+            <img src="images/gallery1.webp">
+            <img src="images/gallery2.webp"> 
+            <img src="images/gallery3.webp">
+            <img src="images/gallery4.webp">    
+            <img src="images/gallery5.webp">    
+        </div>
+    </section>
+    <footer class="footer">
+        <div>Рева Євген ІПЗ-23</div>
+        <div>evgenreva1986@gmail.com</div>
+        <div>Style Tech. <br>all rights reserved</div>
+    </footer>
+</body>
+</html>
