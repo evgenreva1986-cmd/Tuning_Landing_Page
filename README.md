@@ -43,7 +43,7 @@ This is a static website and requires no server-side setup.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/evgenreva1986-cmd/Tuning_Landing_Page.git]
+    git clone https://github.com/evgenreva1986-cmd/Tuning_Landing_Page.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
