@@ -1,4 +1,4 @@
-# Style Tech: 🚗 E-commerce Landing Page (Auto Tuning)
+# Style Tech:  E-commerce Landing Page (Auto Tuning)
 
 This project is a static, multi-section landing page for an auto tuning parts store ("Style Tech"). It showcases advanced **HTML5** and **CSS3** techniques, focusing on modern design principles, **full responsiveness**, efficient layout management, and user experience.
 
