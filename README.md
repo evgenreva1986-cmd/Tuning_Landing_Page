@@ -40,14 +40,10 @@ Include a screenshot of the main page.
 ## How to Run the Project
 
 This is a static website and requires no server-side setup.
+It is already on github.pages
 
-1.  **Clone the Repository:**
+1.  **Follow the link:**
     ```bash
-    git clone https://github.com/evgenreva1986-cmd/Tuning_Landing_Page.git
+    https://evgenreva1986-cmd.github.io/Tuning_Landing_Page/
     ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd [Name of your folder]
-    ```
-3.  **Open the file:**
-    Simply open the `index.html` file in your web browser (e.g., Chrome, Firefox).
+
