@@ -31,7 +31,7 @@ The implementation demonstrates proficiency in the following front-end developme
 * **CSS3** (Grid, Flexbox, Animations, **Media Queries**)
 * **Font Awesome** (Icons)
 
-## Screenshots (Recommended)
+## Screenshots 
 
 Include a screenshot of the main page.
 
